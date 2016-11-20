@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Determination';
+  font-style: normal;
+  src: url('font/DeterminationMonoWeb.woff') format('woff');
+}
+@font-face {
+  font-family: 'PokemonGB';
+  font-style: normal;
+  src: url('font/PokemonGB.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gaster';
+  font-style: normal;
+  src: url('font/PixelatedWingdings.woff') format('woff');
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+#topblock {
+	padding: 5px;
+	display: block;
+	background: #333;
+}
+#code {
+	width: 200px;
+}
+#btn {
+	width: 50px;
+}
+#warn {
+	font-weight: bold;
+	color: #fff;
+}
+#warn.ut {font-family: 'Determination';}
+#warn.pk {font-family: 'PokemonGB';}
+#warn.wd {font-family: 'Gaster';}
+#svg {
+	margin: 10px;
+}
