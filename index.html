@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div id="topblock">
-			<input id="code" placeholder="Enter Code"></input>
+			<input id="code" onkeydown="if(event.keyCode == 13){viewitpls();}" placeholder="Enter Code"></input>
 			<button id="btn" onclick="viewitpls()">View</button>
 			<span id="warn"></span>
 		</div>
