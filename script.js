@@ -32,6 +32,11 @@ function viewitpls() {
 					$('#warn').addClass('pk');
 					$('#warn').text('17 error');
 					break;
+				case 'crystal':
+				case 'vietnamese crystal':
+					$('#warn').addClass('pk');
+					$('warn').text('PLAYER! DRUG BAG FUCK');
+					break;
 				case '17 error':
 				case '* but nobody came.':
 					$('#warn').addClass('ut');
